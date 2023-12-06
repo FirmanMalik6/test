@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    font-family: inter;
+}
+
+.judul {
+    display: flex;
+}
+
+.menu {
+    align-items: center;
+    height: 100%;
+    width: 800px;
+    font-weight: 600;
+    width: auto;
+    display: flex;
+}
+
+.a,
+.batas {
+    height: fit-content;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.a:hover {
+    color: rgb(66, 205, 35);
+}
+
+.logo {
+    margin-right: 5px;
+    width: 50px;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.first-layer {
+    color: white;
+}
+
+.main-pic {
+    width: 350px;
+}
+
+.alas-btn {
+    margin-bottom: 20px;
+}
+
+.alas {
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(164, 92, 197);
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1-judul {
+    font-size: 45px;
+}
+
+.h4-desc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.berlangganan-btn {
+    font-family: inter;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.paket-btn {
+    font-family: inter;
+    font-size: 15px;
+    cursor: pointer;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.berlangganan-btn:hover {
+    background-color: white;
+    color: black;
+    font-family: inter;
+    font-size: 15px;
+}
+
+.paket-btn:hover {
+    color: black;
+    border-color: black;
+}
+
+.p {
+    padding-right: 300px;
+    font-size: x-small;
+}
+
+span {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.link-berlangganan:hover {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.link-paket:hover {
+    margin: 0;
+    padding: 0;
+}
+
+.kenapa-beli-premium {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.content {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.list-item {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.title-card {
+    font-size: 20px;
+}
+
+.subtitle-card {
+    font-weight: 100;
+}
+
+.title-card, .subtitle-card {
+    margin: 10px;
+    text-align: center;
+
+}
+
+.i-1 {
+    padding: 10px;
+    width: 100px;
+}
